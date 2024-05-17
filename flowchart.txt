@@ -1,0 +1,58 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Credit Data
+
+3. Data processing
+	- pandas dataframe
+	- Dropping unwanted column
+4. Data Normalization
+5. Visualization using seaborn & matplotlib
+6. Feature Extraction and Feature Selection 
+7. Splitting the Dataset
+8. Building the Model
+
+	- SOBT
+		- LightGBM
+		- XGBoost
+		- Voting Classifier
+	
+	- SMOTE
+		- LightGBM
+		- XGBoost
+		- Voting Classifier
+	
+	- ADASYN
+		- LightGBM
+		- XGBoost
+		- Voting Classifier
+	
+	- BorderLineSMOTE
+		- LightGBM
+		- XGBoost
+		- Voting Classifier 
+
+9. Training and Building the model
+10. Dumping the model
+
+
+Flask Framework
+----------------
+
+ 
+11. Flask Framework with Sqlite for signup and signin
+12. Importing the packages
+13. User gives input as Feature Values 
+14. The given input is preprocessed for prediction
+15. Trained model is used for prediction
+16. Final outcome is displayed through frontend
+
+ 
+Extension
+----------
+
+In the base paper the author mentioned to use CreditCArd Fraud Dataset for analysis with different oversampling method using LightGBM model and compared with
+XGBoost model, 
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction.
+However, we can further enhance the performance by exploring other ensemble techniques such as Voting Classifier which got 100% of accuracy,
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
+

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Loginform</title>
+    <link rel="shortcut icon" href="static/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/fav.jpg">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-xl-10 col-lg-11 mx-auto login-container">
+                <form action="/signin" method="GET">
+                <div class="row">
+                   
+                    <div class="col-lg-5 col-md-6 no-padding">
+                        <div class="login-box">
+                            <h5>Welcome Back!</h5>
+
+                            <div class="login-row row no-margin">
+                                <label for="username"><i class="fas fa-user"></i> Username</label>
+                                <input type="text" name="user" class="form-control form-control-sm" placeholder="Username" required>
+                            </div>
+
+                             <div class="login-row row no-margin">
+                                <label for=""><i class="fas fa-unlock-alt"></i> Password</label>
+                                <input type="password" name="password" class="form-control form-control-sm" placeholder="Password" required>
+                            </div>
+
+                             
+
+                             <div class="login-row btnroo row no-margin">
+                               <button type="submit" class="btn btn-primary btn-sm"> Sign In</button>
+                              
+                            </div>
+                            <div class="login-row donroo row no-margin">
+                               <p>Don't have an Account ? <a href="/logon">Sign Up</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="col-lg-7 col-md-6 img-box">
+                        <img src="static/images/sideimg.png" alt="">
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/script.js"></script>
+
+</html>
